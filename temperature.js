@@ -1,14 +1,15 @@
 
 
 var button= $("#click1");
+var inputText= $("#superinput");
+
 button.on('click', function(){
   console.log("clicked");
-})
+  var cityName= inputText.val();
+  var apiUrl= 'http://api.openweathermap.org/data/2.5/weather?q='+cityName+'&units=metric&appid=f8687cf28c78e651500c99fd94acb344';
+  $.ajax({url:apiUrl,success:function(result){
+    console.log(result);
+  }});
 
-var inputText= $("#superinput");
-var output= $("#output");
-//console.log(output);
-inputText.on('keyup',function(){
-  var value= $(this).val();
-  output.html(value);
-})
+
+});
