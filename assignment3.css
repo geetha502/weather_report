@@ -1,0 +1,122 @@
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 40px;
+  left: 16px;
+
+}
+.tex{
+  position:absolute;
+  top:120%;
+
+}
+.menu1{
+  position: absolute;
+  top: 20px;
+  right: 100px;
+
+}
+h5{
+  left: 16px;
+
+}
+
+.top-right {
+position: absolute;
+  top: 190px;
+  right: 110px;
+  font-size: 38px;
+  color: white;
+}
+.text-block {
+  position: absolute;
+  bottom: 180px;
+  left: 100px;
+
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sub{
+  margin-left: 10px;
+}
+.grid-container {
+  flex-basis: 33%;
+  text-align: center;
+
+  padding: 10px;
+  color: white;
+  font-family: monospace;
+
+  background-size: 1200px 2200px;
+
+  width:100%;
+  height:100%;
+}
+
+
+
+.columnContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.imageContainer1 {
+  flex-basis: 33%;
+  text-align: center;
+
+  background-color: #BBBB0B;
+  background-size: cover;
+  width: 310px;
+  height: 180px;
+}
+.imageContainer2 {
+  flex-basis: 33%;
+  text-align: center;
+
+  background-size: cover;
+  background-color: #B1B1A4
+
+}
+
+
+
+
+
+
+
+.imageContainer3 {
+  flex-basis: 33%;
+  text-align: center;
+
+  background-size: cover;
+  background-color: #8C8C86
+}
+.imageContainer4 {
+  flex-basis: 33%;
+  text-align: center;
+  background-size: cover;
+  background-color: #575754
+}
